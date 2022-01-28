@@ -18,5 +18,5 @@ import org.junit.runner.RunWith;
         tags = "google"
 )
 
-public class CukesRunner {
+public class TestRunner {
 }
