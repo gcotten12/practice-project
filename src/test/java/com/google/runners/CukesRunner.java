@@ -1,4 +1,4 @@
-package com.cyber.runners;
+package com.google.runners;
 
 
 import io.cucumber.junit.Cucumber;
@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"
         },
         features = "src/test/resources/features",
-        glue = "com/cyber/step_definitions",
+        glue = "com/google/step_definitions",
         dryRun = false,
         tags = "google"
 )

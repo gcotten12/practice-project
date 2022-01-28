@@ -1,12 +1,10 @@
-package com.cyber.step_definitions;
+package com.google.step_definitions;
 
-import com.cyber.utilities.ConfigurationReader;
-import com.cyber.utilities.Driver;
+import com.google.utilities.ConfigurationReader;
+import com.google.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
